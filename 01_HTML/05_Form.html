@@ -1,0 +1,221 @@
+<!-- 
+The <input> Element
+The HTML <input> element is the most used form element.
+An <input> element can be displayed in many ways, 
+depending on the type attribute.
+Here are some examples:
+Type	                Description
+<input type="text">	    Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+Cr.https://www.w3schools.com
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        BASIC HTML
+    </title>
+</head>
+<style>
+    .b1 {
+        align: center;
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #000000;
+    }
+</style>
+
+<body>
+    <div>
+        </br>
+        <hr>
+        <center>
+            <h1>Presented By.. Apirak Oulis 62011019</h1>
+            <h1>Computer Engineering, KMITL</h1>
+        </center>
+        <hr>
+
+    </div>
+
+    <div>
+        <center>
+            <h1>Form Input HTML</h1>
+        </center>
+    </div>
+
+    <div>
+        <form>
+            <p> INPUT : Your Personal Information: </p>
+            <label for="Fname">First Name</label><br>
+            <input type="text" id="Fname" name="Fname"><br><br>
+            <label for="Lname">Last Name</label><br>
+            <input type="text" id="Lname" name="Lname"><br><br>
+            <label for="Nickname">NickName</label><br>
+            <input type="text" id="Nname" name="Nname"><br><br>
+            <label for="Tel">Telephone</label><br>
+            <input type="number" id="Tel" name="Tel"><br><br>
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email" name="Email"><br><br>
+
+            <label for="DOB">Date of Birth</label><br>
+            <input type="date" id="Email" name="Email"><br><br>
+
+            <select name="province">
+                <option value="" selected>--------- Select Province---------</option>
+                <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                <option value="กระบี่">กระบี่ </option>
+                <option value="กาญจนบุรี">กาญจนบุรี </option>
+                <option value="กาฬสินธุ์">กาฬสินธุ์ </option>
+                <option value="กำแพงเพชร">กำแพงเพชร </option>
+                <option value="ขอนแก่น">ขอนแก่น</option>
+                <option value="จันทบุรี">จันทบุรี</option>
+                <option value="ฉะเชิงเทรา">ฉะเชิงเทรา </option>
+                <option value="ชัยนาท">ชัยนาท </option>
+                <option value="ชัยภูมิ">ชัยภูมิ </option>
+                <option value="ชุมพร">ชุมพร </option>
+                <option value="ชลบุรี">ชลบุรี </option>
+                <option value="เชียงใหม่">เชียงใหม่ </option>
+                <option value="เชียงราย">เชียงราย </option>
+                <option value="ตรัง">ตรัง </option>
+                <option value="ตราด">ตราด </option>
+                <option value="ตาก">ตาก </option>
+                <option value="นครนายก">นครนายก </option>
+                <option value="นครปฐม">นครปฐม </option>
+                <option value="นครพนม">นครพนม </option>
+                <option value="นครราชสีมา">นครราชสีมา </option>
+                <option value="นครศรีธรรมราช">นครศรีธรรมราช </option>
+                <option value="นครสวรรค์">นครสวรรค์ </option>
+                <option value="นราธิวาส">นราธิวาส </option>
+                <option value="น่าน">น่าน </option>
+                <option value="นนทบุรี">นนทบุรี </option>
+                <option value="บึงกาฬ">บึงกาฬ</option>
+                <option value="บุรีรัมย์">บุรีรัมย์</option>
+                <option value="ประจวบคีรีขันธ์">ประจวบคีรีขันธ์ </option>
+                <option value="ปทุมธานี">ปทุมธานี </option>
+                <option value="ปราจีนบุรี">ปราจีนบุรี </option>
+                <option value="ปัตตานี">ปัตตานี </option>
+                <option value="พะเยา">พะเยา </option>
+                <option value="พระนครศรีอยุธยา">พระนครศรีอยุธยา </option>
+                <option value="พังงา">พังงา </option>
+                <option value="พิจิตร">พิจิตร </option>
+                <option value="พิษณุโลก">พิษณุโลก </option>
+                <option value="เพชรบุรี">เพชรบุรี </option>
+                <option value="เพชรบูรณ์">เพชรบูรณ์ </option>
+                <option value="แพร่">แพร่ </option>
+                <option value="พัทลุง">พัทลุง </option>
+                <option value="ภูเก็ต">ภูเก็ต </option>
+                <option value="มหาสารคาม">มหาสารคาม </option>
+                <option value="มุกดาหาร">มุกดาหาร </option>
+                <option value="แม่ฮ่องสอน">แม่ฮ่องสอน </option>
+                <option value="ยโสธร">ยโสธร </option>
+                <option value="ยะลา">ยะลา </option>
+                <option value="ร้อยเอ็ด">ร้อยเอ็ด </option>
+                <option value="ระนอง">ระนอง </option>
+                <option value="ระยอง">ระยอง </option>
+                <option value="ราชบุรี">ราชบุรี</option>
+                <option value="ลพบุรี">ลพบุรี </option>
+                <option value="ลำปาง">ลำปาง </option>
+                <option value="ลำพูน">ลำพูน </option>
+                <option value="เลย">เลย </option>
+                <option value="ศรีสะเกษ">ศรีสะเกษ</option>
+                <option value="สกลนคร">สกลนคร</option>
+                <option value="สงขลา">สงขลา </option>
+                <option value="สมุทรสาคร">สมุทรสาคร </option>
+                <option value="สมุทรปราการ">สมุทรปราการ </option>
+                <option value="สมุทรสงคราม">สมุทรสงคราม </option>
+                <option value="สระแก้ว">สระแก้ว </option>
+                <option value="สระบุรี">สระบุรี </option>
+                <option value="สิงห์บุรี">สิงห์บุรี </option>
+                <option value="สุโขทัย">สุโขทัย </option>
+                <option value="สุพรรณบุรี">สุพรรณบุรี </option>
+                <option value="สุราษฎร์ธานี">สุราษฎร์ธานี </option>
+                <option value="สุรินทร์">สุรินทร์ </option>
+                <option value="สตูล">สตูล </option>
+                <option value="หนองคาย">หนองคาย </option>
+                <option value="หนองบัวลำภู">หนองบัวลำภู </option>
+                <option value="อำนาจเจริญ">อำนาจเจริญ </option>
+                <option value="อุดรธานี">อุดรธานี </option>
+                <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
+                <option value="อุทัยธานี">อุทัยธานี </option>
+                <option value="อุบลราชธานี">อุบลราชธานี</option>
+                <option value="อ่างทอง">อ่างทอง </option>
+          </select>
+            <input type="button" onclick="alert(select)" value="Click Me!">
+
+        </form>
+
+        <form>
+            <p>Choose Your Gender</p>
+            <input type="radio" id="Gender" value="GMale" name="gender">
+            <label from="Select Gender">Male</label><br>
+            <input type="radio" id="Gender" value="GFemale" name="gender">
+            <label from="Select Gender">Female</label><br>
+        </form>
+
+        <form>
+            <p>Choose Your Favorite Programming Language</p>
+            <input type="checkbox" id="PLanguage" value="PL__html" name="language1">
+            <label from="Select Language">HTML</label><br>
+            <input type="checkbox" id="PLanguage" value="PL_css" name="language2">
+            <label from="Select Language">CSS</label><br>
+            <input type="checkbox" id="PLanguage" value="PL_ccppcs" name="language3">
+            <label from="Select Language">C, C++, C#</label><br>
+            <input type="checkbox" id="PLanguage" value="PL_java" name="language4">
+            <label from="Select Language">Java</label><br>
+            <input type="checkbox" id="PLanguage" value="PL_js" name="language5">
+            <label from="Select Language">JavaScrip</label><br>
+            <input type="checkbox" id="PLanguage" value="PL_Python" name="language6">
+            <label from="Select Language">Python</label><br>
+            <input type="checkbox" id="PLanguage" value="PL_php" name="language7">
+            <label from="Select Language">PHP</label><br>
+
+        </form>
+
+
+
+
+        <br><input type="submit" value="Submit"><br>
+
+    </div>
+    <div>
+        </br>
+        <hr>
+        <center>
+            <h1>2022 CopyRight © Apizz789</h1>
+            <h1>Don't Give Up, If You Don't Succeed.</h1>
+        </center>
+        <hr>
+    </div>
+
+</body>
+
+</html>
